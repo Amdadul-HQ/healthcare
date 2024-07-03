@@ -33,7 +33,7 @@ const links = [
                 <div>
                     <Image src={'/Media/logo dark.png'} width={125} height={33} alt=''/>
                 </div>
-                <ul className={`flex gap-x-6 lg:static fixed lg:flex-row flex-col transition-all duration-500 ${isOpen ? 'right-5 top-14':'-right-52 top-14'} lg:text-left text-right`}>
+                <ul className={`flex gap-x-6 lg:static z-50 lg:bg-transparent bg-[#FFC637] lg:p-0 p-5 lg:rounded-none rounded-lg fixed lg:flex-row flex-col transition-all duration-500 ${isOpen ? 'right-0 top-14':'-right-52 top-14'} lg:text-left text-right`}>
                     {
                         links && links.map(route => <li className='text-primary navhover cursor-pointer text-base font-normal' key={route.id}>{route.title}</li>) 
                     }
