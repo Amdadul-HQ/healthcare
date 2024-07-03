@@ -10,7 +10,7 @@ const Service = () => {
     return (
         <section>
             <MaxWidth>
-                <div className='p-10 bg-[#FFFFF5] mt-40 rounded-[32px] grid grid-cols-2 gap-x-7 gap-y-[60px]'>
+                <div className='p-10 bg-[#FFFFF5] mt-40 rounded-[32px] grid grid-cols-1 lg:grid-cols-2 gap-x-7 gap-y-[60px]'>
                     <div>
                         <SectionTitle text='Service'/>
                         <Heading className='max-w-[396px]' text="Empowering Health, Enriching Lives"/>
