@@ -7,7 +7,7 @@ const Faq = () => {
     return (
         <section className='mt-40'>
             <MaxWidth>
-                <div>
+                <div className='lg:px-0 px-5'>
                     <SectionTitle text='FAQ'/>
                     <Heading text='Frequntly Asked Question' />
                     <div className='space-y-3 mt-8'>

@@ -14,9 +14,9 @@ const HomePage = () => {
       <Statistics/>
       <WhoWeAre/>
       <Service/>
-      {/* <Testimonial/> */}
-      {/* <Faq/> */}
-      {/* <GetYourAppointment/> */}
+      <Testimonial/>
+      <Faq/>
+      <GetYourAppointment/>
         </>
     );
 };

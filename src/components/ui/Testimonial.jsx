@@ -35,10 +35,10 @@ const Testimonial = () => {
     return (
         <section className='mt-40'>
             <MaxWidth>
-                <div>
+                <div className='lg:px-0 px-5'>
                     <SectionTitle text='Testimonial'/>
                     <Heading text='What they say about us' className="max-w-[420px]"/>
-                    <div className='grid grid-cols-3 gap-x-6 mt-8'>
+                    <div className='grid lg:grid-cols-3 grid-cols-1 gap-y-6  gap-x-6 mt-8'>
                         {
                             reviews && reviews.map(review => <ReviewDiv details={review} key={review._id} />)
                         }
