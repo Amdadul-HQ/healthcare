@@ -1,3 +1,4 @@
+import Faq from "@/components/ui/Faq";
 import Service from "@/components/ui/Service";
 import Statistics from "@/components/ui/Statistics";
 import Testimonial from "@/components/ui/Testimonial";
@@ -13,6 +14,7 @@ export default function Home() {
       <WhoWeAre/>
       <Service/>
       <Testimonial/>
+      <Faq/>
     </main>
   );
 }
