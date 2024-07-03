@@ -6,8 +6,8 @@ const Statistics = () => {
   return (
     <section>
       <MaxWidth>
-        <div className="mt-10 grid grid-cols-5 gap-x-5 relative text-primary">
-            <h1 className="absolute text-5xl font-semibold text-primary text-center left-[50%] -translate-x-[50%]">Comprehensive Care <br /> for Every Patient</h1>
+        <div className="lg:mt-10 mt-32 grid grid-cols-1 lg:px-0 px-5 lg:gap-y-0 gap-y-5 grid-rows-5 lg:grid-rows-1 lg:grid-cols-5 gap-x-5 relative text-primary">
+            <h1 className="absolute lg:flex  lg:text-5xl  font-semibold text-primary text-center left-[50%] lg:translate-y-0 -translate-y-20 -translate-x-[50%]">Comprehensive Care <br /> for Every Patient</h1>
           <div className="bg-white border rounded-3xl shadow-gray-500 shadow-xl p-5 font-normal">
             <h2 className="text-[40px] font-semibold ">90%</h2>
             <p className="text-sm font-normal max-w-[156px] mt-2">
@@ -24,7 +24,7 @@ const Statistics = () => {
             </div>
           </div>
           <div className="relative">
-            <div className="absolute bottom-0 w-full shadow-gray-500 shadow-xl h-[190px] border rounded-3xl p-5 bg-[#FFFFF5]">
+            <div className="absolute bottom-0 w-full shadow-gray-500 shadow-xl h-full lg:h-[190px] border rounded-3xl p-5 bg-[#FFFFF5]">
               <h2 className="text-[40px] font-semibold ">500+</h2>
               <p className="text-sm font-normal max-w-[156px] mt-2">
                 Board-certified <br /> doctors
@@ -41,7 +41,7 @@ const Statistics = () => {
             </div>
           </div>
           <div className="relative">
-            <div className="absolute bottom-0 w-full shadow-gray-500 shadow-xl h-[162px] border rounded-3xl p-5 bg-[#FFFFF5]">
+            <div className="absolute bottom-0 w-full shadow-gray-500 shadow-xl h-full lg:h-[162px] border rounded-3xl p-5 bg-[#FFFFF5]">
               <div className="flex items-center gap-x-3">
                 <h2 className="text-[40px] font-semibold ">4.8</h2>
                 <Image
@@ -87,7 +87,7 @@ const Statistics = () => {
             </div>
           </div>
           <div className=" relative">
-            <div className="absolute bottom-0 w-full shadow-gray-500 shadow-xl h-[190px] border rounded-3xl p-5 bg-[#FFFFF5]">
+            <div className="absolute bottom-0 w-full shadow-gray-500 shadow-xl h-full lg:h-[190px] border rounded-3xl p-5 bg-[#FFFFF5]">
               <h2 className="text-[40px] font-semibold ">$5000</h2>
               <p className="text-sm font-normal max-w-[156px] ">
               Money spend <br />

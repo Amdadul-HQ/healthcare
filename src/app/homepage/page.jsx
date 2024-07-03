@@ -11,7 +11,7 @@ const HomePage = () => {
     return (
         <>
             <Hero/>
-      {/* <Statistics/> */}
+      <Statistics/>
       {/* <WhoWeAre/> */}
       {/* <Service/> */}
       {/* <Testimonial/> */}
