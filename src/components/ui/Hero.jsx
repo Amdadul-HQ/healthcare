@@ -10,15 +10,15 @@ const Hero = () => {
                <Image src='/Media/Rectangle5.png' className='z-0' width={1160} height={470} alt='banner'/>
                 
                 </div> */}
-                <div className="relative w-[1160px] h-[470px]">
+                <div className="relative lg:w-[1160px] lg:h-[470px]">
           <Image
-            className="rounded-[48px]"
+            className="lg:rounded-[48px]"
             src="/Media/Rectangle5.png"
             width={1160}
             height={477}
             alt=""
           />
-          <div className="absolute bg-gradient-to-t from-[#02004378] to-[#00C19D00] w-full h-full bottom-0 rounded-[48px]">
+          <div className="absolute bg-gradient-to-t from-[#02004378] to-[#00C19D00] w-full h-full bottom-0 lg:rounded-[48px]">
            
           </div>
         </div>
