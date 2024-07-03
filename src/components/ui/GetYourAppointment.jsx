@@ -23,8 +23,8 @@ const GetYourAppointment = () => {
               at 50% Off!
             </h1>
             <div className="flex gap-x-6 lg:mt-6">
-                <Button text='Appointment'className='bg-[#FFC637] font-medium lg:mt-11'/>
-                <Button text='Learn More'className='bg-transparent text-white font-medium lg:mt-11'/>
+                <Button text='Appointment'className='bg-[#FFC637] hover:bg-secondly hover:text-white transition-all duration-500 font-medium lg:mt-11'/>
+                <Button text='Learn More'className='bg-transparent hover:bg-[#FFC637]  hover:text-primary transition-all duration-500 text-white font-medium lg:mt-11'/>
             </div>
             </div>
             <div className="flex-1">

@@ -15,7 +15,7 @@ const WhoWeAre = () => {
             <Heading className='max-w-[396px]' text={`We Help To Get Soultions`}/>
             <p className="max-w-[470px] text-secondly font-normal text-base">We are proud to be a trusted healthcare provider in our community, and we look forward to serving you and your family with excellence, integrity, and compassion. Your health is our priority, and we are here for you every step of the way. We believe in treating each patient with dignity, respect, and empathy, ensuring that they receive the attention and care they deserve.</p>
             
-                <Button text='Learn More' className='bg-[#FFC637] font-medium mt-11'/>
+                <Button text='Learn More' className='bg-[#FFC637] hover:bg-secondly hover:text-white transition-all duration-500 font-medium mt-11'/>
           </div>
           <div className="relative">
             <Image src='/Media/whoweare.png' width={568} height={415} alt=""/>

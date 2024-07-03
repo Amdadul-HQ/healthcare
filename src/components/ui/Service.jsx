@@ -17,7 +17,7 @@ const Service = () => {
                         <p className="max-w-[470px] text-secondly font-normal text-base mt-4">
                         We are committed to providing high-quality, compassionate care to every patient we serve. Whatever your healthcare needs may be, you can trust us to be your partner in health and wellness.
                         </p>
-                        <Button text='Appointment' className='bg-[#FFC637] font-medium mt-11'/>
+                        <Button text='Appointment' className='bg-[#FFC637] hover:bg-secondly hover:text-white transition-all duration-500 font-medium mt-11'/>
                     </div>
                     <div className='relative'>
                         <Image src='/Media/Rectangle 27-2.png' className='rounded-[30px]' width={525} height={395} alt=''/>

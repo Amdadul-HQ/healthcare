@@ -35,13 +35,13 @@ const links = [
                 </div>
                 <ul className={`flex gap-x-6 lg:static fixed lg:flex-row flex-col transition-all duration-500 ${isOpen ? 'right-5 top-14':'-right-52 top-14'} lg:text-left text-right`}>
                     {
-                        links && links.map(route => <li className='text-primary cursor-pointer text-base font-normal' key={route.id}>{route.title}</li>) 
+                        links && links.map(route => <li className='text-primary navhover cursor-pointer text-base font-normal' key={route.id}>{route.title}</li>) 
                     }
                     <Button text={'Appointment'} className={'border-primary border-2 lg:hidden text-primary font-medium'} />
                     
                 </ul>
                 <div className='lg:flex hidden'>
-                    <Button text={'Appointment'} className={'border-primary border-2 text-primary font-medium'} />
+                    <Button text={'Appointment'} className={'border-primary border-2 text-primary hover:bg-primary hover:text-white transition-all duration-500 font-medium'} />
                 </div>
                 <div className='lg:hidden'>
                 <Hamburger toggled={isOpen} toggle={setOpen} />
